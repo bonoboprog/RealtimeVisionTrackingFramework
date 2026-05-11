@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/paolo/Desktop/VSCODE/RealtimeVisionTrackingFramework/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/Users/paolo/Desktop/VSCODE/RealtimeVisionTrackingFramework/include -isystem C:/msys64/ucrt64/include/opencv4 -std=gnu++20 -o CMakeFiles\\rvf.dir\\src\\main.cpp.obj -c C:\\Users\\paolo\\Desktop\\VSCODE\\RealtimeVisionTrackingFramework\\src\\main.cpp",
+  "file": "C:\\Users\\paolo\\Desktop\\VSCODE\\RealtimeVisionTrackingFramework\\src\\main.cpp",
+  "output": "CMakeFiles\\rvf.dir\\src\\main.cpp.obj"
+}
+]

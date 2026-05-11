@@ -12,3 +12,4 @@ add_executable(rvf src/main.cpp)
 target_link_libraries(rvf PRIVATE ${OpenCV_LIBS})
 
 target_include_directories(rvf PRIVATE ${OpenCV_INCLUDE_DIRS})
+target_include_directories(rvf PRIVATE include)
