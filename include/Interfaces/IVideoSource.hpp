@@ -6,4 +6,14 @@
  * Interface for any video source (Webcam, File, RTSP Stream).
  */
 
- class IVideoSource
+ class IVideoSource {
+    public:
+        virtual ~IVideoSource() = default; // Virtual destructor for proper cleanup
+
+        // Returns a frame if available, otherwise returns std::nullopt
+        virtual std::optional<cv::Mat> getFrame() = 0;
+
+        // Checks if the video source is opened and ready to provide frames
+        virtual bool isOpened() const = 0;
+
+ };
